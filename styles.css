@@ -15,10 +15,17 @@ body{
     font-weight: bold;
 }
 
-#hero{
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-image: url(images/galaxy5.webp);
     background-size: cover;
-    padding: 200px 0px;
+    height: 100vh;
+}
+
+#last{
+    color: #116496;
 }
 
 .underline{
